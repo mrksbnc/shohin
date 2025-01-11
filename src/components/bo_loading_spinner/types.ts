@@ -1,13 +1,10 @@
-import type { BoSize } from '@/data/bo_size.constant'
-import type {
-	BoLoaderTextPosition,
-	BoLoaderVariant,
-} from '@/data/loader.constant'
+import type { BoSize } from '@/shared/bo_size';
+import type { BoLoaderTextPosition, BoLoaderVariant } from '@/shared/bo_loader';
 
 export type BoLoadingSpinnerProps = {
-	size?: BoSize
-	variant?: BoLoaderVariant
-	customColor?: string
-	loaderText?: string
-	textPosition?: BoLoaderTextPosition
-}
+	size?: BoSize;
+	variant?: BoLoaderVariant;
+	customColor?: string;
+	loaderText?: string;
+	textPosition?: BoLoaderTextPosition;
+};
